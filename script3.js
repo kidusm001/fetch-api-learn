@@ -27,6 +27,7 @@ function addTodoToDOM(todo) {
   li.appendChild(span);
   li.appendChild(checkbox);
   li.setAttribute('data-id', todo.id);
+  li.classList.add('item');
   list.appendChild(li);
 }
 
@@ -51,8 +52,16 @@ let todo = {
   completed: true,
 };
 
+const toggleCompleted = (e) => {
+  if (e.target.classList.contains('item')) {
+    if (e.target.checked) {
+    }
+  }
+};
+
 function init() {
   document.addEventListener('DOMContentLoaded', getTodo);
   addForm.addEventListener('submit', addTodo);
+  list.addEventListener('click', toggleCompleted);
 }
 init();

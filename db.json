@@ -28,6 +28,11 @@
       "id": 3,
       "body": "Post 3",
       "completed": false
+    },
+    {
+      "id": 4,
+      "body": "Post 4",
+      "completed": true
     }
   ],
   "comments": [
