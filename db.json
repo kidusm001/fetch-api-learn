@@ -13,28 +13,7 @@
       "title": "Post 3"
     }
   ],
-  "todos": [
-    {
-      "id": 1,
-      "body": "Post 1",
-      "completed": false
-    },
-    {
-      "id": 2,
-      "body": "Post 2",
-      "completed": false
-    },
-    {
-      "id": 3,
-      "body": "Post 3",
-      "completed": false
-    },
-    {
-      "id": 4,
-      "body": "Post 4",
-      "completed": true
-    }
-  ],
+
   "comments": [
     {
       "id": 1,
